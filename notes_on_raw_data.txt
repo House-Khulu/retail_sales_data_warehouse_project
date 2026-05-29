@@ -1,8 +1,0 @@
-1. There's three types of dates on retail_sales dataset ;
- -purchase_date
- -ship_date
- -return_date
-
-** From the three dates I have discovered that the minimum date is *2024-01-01* and maximum date is *2025-01-15*
-
-

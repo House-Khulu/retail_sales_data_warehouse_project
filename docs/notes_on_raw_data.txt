@@ -1,0 +1,70 @@
+1. There's three types of dates on retail_sales dataset ;
+ -purchase_date
+ -ship_date
+ -return_date
+
+** From the three dates I have discovered that the minimum date is *2024-01-01* and maximum date is *2025-01-15*
+
+--Counting the number of ship, purchase and return dates;
+**Insight: 
+-purchase_date has 5000 sales
+-ship_dates has 2458 sales
+-and the returns are 229 
+
+------------------------------------------------------------------------------------------------------------------
+
+2. --Checking distinct locations;
+
+*Insight:
+-3 distinct Continents
+-4 distinct Countries
+-15 distinct Cities
+
+-------------------------------------------------------------------------------------------------------------------
+
+3. --Checking the distinct store_ids and store_name
+*Insight: 
+-21 distinct store_ids
+-21 distinct store_names
+-4 distinct store_types
+
+--------------------------------------------------------------------------------------------------------------------
+
+4.--Checking distinct Channel, Priority and Payment_method
+*Insight:
+-3 distinct channels
+-3 distinct priority
+-4 distinct payment method
+
+---------------------------------------------------------------------------------------------------------------------
+5. --Checking for distinct promotion_id and promotion_name
+*Insight:
+-5 promotion_ids
+-5 promotion_names
+
+---------------------------------------------------------------------------------------------------------------------
+
+6. --Checking for distinct customer_ids and customer_segment
+*Insight:
+-1175 distinct customer_ids
+-5 distinct customer_segments
+-4 distinct loyalty_tier 
+
+--------------------------------------------------------------------------------------------------------------------
+
+7. --Checking distinct salesperson_id and salesperson_department
+*Insight:
+-70 distinct salesperson_ids
+-4 distinct salesperson_department
+
+---------------------------------------------------------------------------------------------------------------------
+
+8. --Checking for distinct product_id, stock_keeping_unit(SKU), product_name, catergory, subcatergory and brand
+*Insight:
+-180 distinct product_ids
+-180 distinct SKU
+-99 distinct product_names
+-4 distinct categories
+-13 distinct subcategories
+-18 distinct brands
+
