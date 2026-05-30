@@ -14,3 +14,5 @@ WHERE NAME = 'retail_sales_dwh')
 BEGIN
      CREATE DATABASE [retail_sales_dwh]
 END;
+
+
